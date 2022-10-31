@@ -1,3 +1,3 @@
-resource "scaffolding_resource" "example" {
+resource "gpgupdate_resource" "example" {
   sample_attribute = "foo"
 }

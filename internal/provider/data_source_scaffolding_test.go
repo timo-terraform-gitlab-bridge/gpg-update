@@ -18,7 +18,7 @@ func TestAccDataSourceScaffolding(t *testing.T) {
 				Config: testAccDataSourceScaffolding,
 				Check: resource.ComposeTestCheckFunc(
 					resource.TestMatchResourceAttr(
-						"data.scaffolding_data_source.foo", "sample_attribute", regexp.MustCompile("^ba")),
+						"data.gpgupdate_data_source.foo", "sample_attribute", regexp.MustCompile("^ba")),
 				),
 			},
 		},
@@ -26,7 +26,7 @@ func TestAccDataSourceScaffolding(t *testing.T) {
 }
 
 const testAccDataSourceScaffolding = `
-data "scaffolding_data_source" "foo" {
+data "gpgupdate_data_source" "foo" {
   sample_attribute = "bar"
 }
 `

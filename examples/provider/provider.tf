@@ -1,3 +1,3 @@
-provider "scaffolding" {
+provider "gpgupdate" {
   # example configuration here
 }

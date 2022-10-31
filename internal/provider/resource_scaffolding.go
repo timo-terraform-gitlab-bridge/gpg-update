@@ -11,7 +11,7 @@ import (
 func resourceScaffolding() *schema.Resource {
 	return &schema.Resource{
 		// This description is used by the documentation generator and the language server.
-		Description: "Sample resource in the Terraform provider scaffolding.",
+		Description: "Sample resource in the Terraform provider gpgupdate.",
 
 		CreateContext: resourceScaffoldingCreate,
 		ReadContext:   resourceScaffoldingRead,
